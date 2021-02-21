@@ -113,6 +113,10 @@ a {
   color: #444444;
 }
 
+a:hover {
+  color: rgb(73, 105, 201);
+}
+
 ul {
   list-style: none;
 }
@@ -138,7 +142,6 @@ header {
   float: left;
   line-height: 0.5;
   font-size: 24px;
-
 }
 
 .header-right {
@@ -150,8 +153,8 @@ header {
    float: left;
    font-size: 20px;
    padding: 0 15px;
-
  }
+
 
  .search-wrapper {
 
@@ -184,6 +187,11 @@ header {
 
  .main-wrapper {
    height: 1440px;
+ }
+
+ .main-wrapper .container {
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 120px;
  }
 
 .date {
@@ -236,4 +244,15 @@ header {
 
 .page-list {
   margin-left: 320px;
+}
+
+footer {
+  height: 112px;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN",Meiryo, serif;
+  font-size: 28px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
 }
