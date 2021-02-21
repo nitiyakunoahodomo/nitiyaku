@@ -105,6 +105,7 @@ body {
   font-size: 15px;
   font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN",Meiryo, serif;
   line-height: 1.8;
+  padding-left: 10px;
 }
 
 a {
@@ -234,5 +235,5 @@ header {
 
 
 .page-list {
-  margin-left: 320px; 
+  margin-left: 320px;
 }
