@@ -255,7 +255,9 @@ i {
  margin-left: 6px;
 
 }
-
+.last-list {
+  margin-right: 80px;
+}
 
 .page-list {
   margin-left: 320px;
