@@ -124,7 +124,15 @@ ul {
 header {
   height: 152px;
   margin-top: 50px;
+}
 
+marquee {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+i {
+  color: rgba(246, 251, 15, 0.98);
 }
 
 .head{
@@ -136,6 +144,10 @@ header {
 .container{
   width: 1040px;
   margin:0 auto;
+}
+.replay {
+  font-size: 20px;
+
 }
 
 .header-left{
@@ -183,10 +195,13 @@ header {
 
  .top-wrapper {
    height: 780px;
+   border-bottom: 1px solid #ccc;
+
  }
 
  .main-wrapper {
-   height: 1440px;
+   height: 2000px;
+   margin-top: 30px;
  }
 
  .main-wrapper .container {
@@ -200,7 +215,7 @@ header {
   font-size: 17px;
   color: #999999;
   padding-top: 10px;
- opacity: 0.5;
+ opacity: 0.8;
 }
 
 .date:hover {
