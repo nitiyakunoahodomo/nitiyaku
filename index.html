@@ -20,14 +20,15 @@
                   <div class="header-right">
                     <div class="header-nav">
                       <ul class="gnav">
-                        <li><a href="#">ホーム</a></li>
+                        <li><a href="https://nitiyakunoahodomo.github.io/nitiyaku/">ホーム</a></li>
                         <li><a href="https://docs.google.com/spreadsheets/d/1rYoNkonNz8BwnKCEK3d3a0leO6sEPGkOJ8TzPlwNKgU/htmlview">日薬リーグ戦績</a></li>
-                        <li><a href="#">ルール</a></li>
+                        <li><a href="https://nitiyakunoahodomo.github.io/tuusansenseki/">通算戦績</a></li>
                         <li><a href="#">過去の戦績</a></li>
-                        <li class="search-wrapper">  <form action="">
+                        <li><a href="https://nitiyakunoahodomo.github.io/bumonbeturanking/">部門別ランキング</a></li>
+                        <!-- <li class="search-wrapper">  <form action="">
                             <input class="search" type="text" name="q" placeholder="検索…">
                           </form>
-                        </li>
+                        </li> -->
 
                       </ul>
                     </div>
@@ -40,11 +41,14 @@
     <div class="top-wrapper">
       <div class="container">
         <img class="aho" src="nitiyaku.png" width="1000" alt="">
-        <h1 class="head">2021年戦いの火蓋が切って落とされる</h1>
-        <marquee>2021年2月22日ヒデアキさんが四暗刻を上がりました！おめでとうございます！</marquee>
+        <h1 class="head">Infomation</h1>
+        <div class="Infomation">
+        <p>2021年2月26日新しく「通算戦績」「部門別ランキング」が開設されました</p>
+        <p>2021年2月22日ヒデアキさんが四暗刻を上がりました！おめでとうございます！</p>
         <div class="replay">
         <a href="https://pl.sega-mj.com/mj_viewer?B=4111&K=03021&V=6&DI=FrPvMj4HV01NPb&T=304_279_302_105&D=z&S=64&H=t7n1ernxqr69r_3ku9c8hmjj1hp_yv8e0u5l88loi_5uwytpqzamkvl&A=bu4v95btdjouaqz1xp1_6pcqk_yi26q_w_lef2mzn8v_xmc9e9oR4gvfbu_3_juw_g1d_vwh_w_4_ivrci35~2eU6&Y=12_128d320_115110d1A1z6e05888llloooyy500&Z=2h2f97gdmtj4ipb4f6k2z1bsgp3tda7qao3xz6yc-7&N=%E3%82%AF%E3%83%94%E3%83%89%E3%81%AE%E6%82%AA%E6%88%AF_%EF%BC%88%E3%80%80%EF%BE%9F%D0%B4%EF%BE%9F%EF%BC%89_%E5%8F%A4%E6%B2%B3%E8%B2%A8%E7%89%A9_%E3%82%B5%E3%83%8A%E3%83%88">四暗刻リプレイ</a>
       </div>
+    </div>
       </div>
     </div>
 
@@ -142,7 +146,7 @@
                   </div>
 
                   <ul class="page-list">
-                    <li><a href="#">1</a></li>
+                    <li class="this">1</li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li class="last-list"><a href="#">次へ<span class="fas fa-angle-double-right"></span></a></li>
@@ -159,24 +163,24 @@ var year = lastup.getYear(); // 年
 var month = lastup.getMonth() + 1; // 月
 var day = lastup.getDate(); // 日
 var week = weeks[ lastup.getDay() ]; // 曜日
-var hour = lastup.getHours(); // 時
-var min = lastup.getMinutes(); // 分
-var sec = lastup.getSeconds(); // 秒
+// var hour = lastup.getHours(); // 時
+// var min = lastup.getMinutes(); // 分
+// var sec = lastup.getSeconds(); // 秒
 
 if(year < 2000) { year += 1900; }
 
 // 数値が1桁の場合、頭に0を付けて2桁で表示する指定
 if(month < 10) { month = "0" + month; }
 if(day < 10) { day = "0" + day; }
-if(hour < 10) { hour = "0" + hour; }
-if(min < 10) { min = "0" + min; }
-if(sec < 10) { sec = "0" + sec; }
+// if(hour < 10) { hour = "0" + hour; }
+// if(min < 10) { min = "0" + min; }
+// if(sec < 10) { sec = "0" + sec; }
 
 
 
 // 表示開始
 document.write('更新日時：<b>' + year + '年' + month + '月' + day + '日（' + week + '）');
-document.write(hour + '時' + min + '分' + sec + '秒</b>');
+// document.write(hour + '時' + min + '分' + sec + '秒</b>');
 // 表示終了
 
 // -->
@@ -184,15 +188,6 @@ document.write(hour + '時' + min + '分' + sec + '秒</b>');
 
       </div>
     </div>
-
-    <div class="">
-
-    </div>
-
-
-
-
-
 
     <footer>
       <div class="footer-logo">

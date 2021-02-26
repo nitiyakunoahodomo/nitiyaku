@@ -145,6 +145,10 @@ i {
   width: 1040px;
   margin:0 auto;
 }
+.Infomation {
+  font-size: 24px;
+}
+
 .replay {
   font-size: 20px;
 
@@ -253,7 +257,11 @@ i {
   border: 1px solid #ccc;
  padding: 8px 18px;
  margin-left: 6px;
+ opacity: 0.5;
+}
 
+.page-list li:hover{
+  opacity: 1;
 }
 .last-list {
   margin-right: 80px;
@@ -261,6 +269,12 @@ i {
 
 .page-list {
   margin-left: 320px;
+}
+
+.page-list .this {
+  background-color: #EEEEEE;
+  color: #333333;
+  opacity: 1;
 }
 
 footer {
